@@ -45,7 +45,7 @@ Squad Game {
 
          let { action, target } = adventurer.chooseAction("\nYour action? (move directionName, collect itemName, inspect, solve riddleAnswer, use itemName): ");
 
-         // action will be name of action taking by adventurer and Target will be next to action command
+         //let assume action will be name of action taking by adventurer and Target will be next to action command
 
          If(action == "move") {
             travel(room, target);
